@@ -2,6 +2,8 @@
 
 module Avalara
   module Response
+    autoload :CancelTax, 'avalara/response/cancel_tax'
+    autoload :CancelTaxResult, 'avalara/response/cancel_tax_result'
     autoload :Invoice, 'avalara/response/invoice'
     autoload :Message, 'avalara/response/message'
     autoload :TaxLine, 'avalara/response/tax_line'
